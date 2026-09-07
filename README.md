@@ -3,7 +3,7 @@
 ## GitHub Pages
 
 The lesson, simulations, questions and all images can be published from GitHub.
-Run `npm run build:github` to prepare `docs/`. In the GitHub copy, commit `docs/`
+Run `npm run build` to prepare `docs/`. Commit the generated `docs/`
 and choose **Settings → Pages → Deploy from a branch → main → /docs → Save**.
 The intended student address is `https://mrsep01.github.io/matter-lab/` after
 GitHub confirms publication. Repository files alone do not activate Pages.
@@ -28,9 +28,10 @@ updates. Preserve progress IDs and keys across releases.
 
 ## Existing Sites hosting
 
-The student lesson is authored in `public/`. `npm run build` stages those assets
-and the progress Worker for Sites. Keep the existing project ID and `DB` binding
-when publishing updates.
+The student lesson is authored in `public/`. The existing progress service is
+managed separately. Its private deployment configuration is intentionally excluded
+from this public repository. The Worker source and database schema are included
+for maintenance; GitHub Pages does not execute them.
 
 Progress lives in D1. A random private progress code identifies an anonymous save;
 the database stores only its SHA-256 hash. Codes are not put in URLs. Students can

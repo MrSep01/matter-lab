@@ -1,0 +1,17 @@
+{
+  "name": "matter-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-github-pages.mjs",
+    "build:github": "node scripts/build-github-pages.mjs",
+    "db:generate": "drizzle-kit generate",
+    "test": "node --test tests/*.test.mjs",
+    "build:sites": "node scripts/build.mjs"
+  },
+  "devDependencies": {
+    "drizzle-kit": "0.31.10",
+    "drizzle-orm": "0.45.2"
+  }
+}

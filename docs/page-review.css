@@ -1,0 +1,18 @@
+.final-mission{margin:24px 0;padding:24px;border:2px solid #bfcfdf;border-radius:18px;background:#fff;scroll-margin-top:24px}
+.final-mission-heading{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.final-mission-heading h2{margin-top:6px}
+.mission-access{padding:7px 14px;border-radius:30px;background:#eee8f6;color:#604586;font-size:14px;font-weight:700}
+.final-mission[data-locked=false] .mission-access{background:#e1f4e9;color:#255e47}
+#mission-section-status{margin:12px 0 18px;color:#4e6370;font-size:16px}
+.mission-placeholder{margin:0;padding:20px;border:2px dashed #cbd3e2;background:#f7f9fc;border-radius:14px}
+.mission-placeholder h3{font-size:22px;margin-top:0}
+.mission-placeholder .mission-training{margin-bottom:0}
+.mission-training .mission-zone-status{font-size:14px;margin-top:12px;color:#604586;font-weight:700}
+.mission-training .badge-complete{background:#f0faf5;border-color:#a8cfb7}
+.mission-training .badge-complete .mission-zone-status{color:#276649}
+#mission-work[hidden],#mission-lock[hidden]{display:none}
+#mission-work .quiz-block{margin:0;padding:0;border:0;background:transparent}
+#mission-work .question:first-child{margin-top:0}
+.why-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+#lesson>.course-reference{margin-top:24px}
+@media(max-width:600px){.final-mission{padding:18px 14px}.mission-placeholder{padding:16px 12px}.final-mission-heading h2{font-size:26px}.final-mission-heading .label{font-size:12px}.mission-placeholder h3{font-size:21px}.why-grid{grid-template-columns:1fr}}
