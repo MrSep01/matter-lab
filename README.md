@@ -1,5 +1,13 @@
 # Matter Lab
 
+## Moving progress saving to an independent account
+
+The standalone service and data-transfer procedure are ready in
+[`progress-service/`](progress-service/README.md). Activation needs a Cloudflare
+account and a verified transfer of existing records. The current service stays
+connected until then. `progress-config.json` controls the saving address; the
+GitHub lesson URL and student progress identifiers do not change.
+
 ## GitHub Pages
 
 The lesson, simulations, questions and all images can be published from GitHub.

@@ -3,3 +3,5 @@ dist/
 .env
 .wrangler/
 .openai/
+.private-progress/
+progress-service/wrangler.json
